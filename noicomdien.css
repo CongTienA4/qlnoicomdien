@@ -1,0 +1,359 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .topbar{
+      text-align: right;
+      font-size: 16px;
+      background:#efefef;
+      height:38px;
+      line-height: 35px;
+      width: 100%;
+  }
+  .topbar .topbar-fb{
+    margin-right: 10px;
+  }
+  .topbar li a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  #menu{
+      background-color:#ef342b;
+      margin-top: 10px;
+      height: 40px;
+      width: auto;
+  }
+  #menu li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-top: 6px;
+  }
+   #menu #homepage:hover{
+     color: yellow;
+    }
+  
+   #menu #homepage{
+     width: auto;
+     color: white;
+     margin-left: 8px;
+     height: 40px;
+     margin-top: -20px;
+   }
+   #menu .home_page-menu{
+     width: auto;
+     color: white;
+   }
+   .home_page{
+     margin-left: 150px;
+     margin-top: 10px;
+   }
+   #hottline a:hover{
+     color: yellow;
+   }
+   #menu #hottline{
+     font-size: 16px;
+     margin-left: 100px;
+    font-weight: bold;
+
+   }
+   #menu #hottline a{
+     color: white;
+   }
+   .sub-menu{
+    display: none;
+    position: absolute;
+    width: auto;
+    height: 40px;
+    z-index: 10;
+    margin-top: 32px;
+    
+   }
+   #menu li:hover .sub-menu {
+    display:inline-block;
+   }
+   .sub-menu li {
+    margin-left: 0 !important;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    color: black;
+    height: 30px;
+   }
+   .sub-menu button:hover{
+     background-color:whitesmoke;
+    }
+   .sub-menu button{
+     width: 250px;
+     background:white;
+     border:1px solid beige;
+   }
+  body {
+    font-family: sans-serif;
+  }
+  #menu ul {
+    background:white;
+    border: 1px solid whitesmoke;
+    list-style-type: none;
+    text-align: center;
+  }
+  .content .price:hover{
+    color:royalblue;
+  }
+  .content .price{
+    float: right;
+  }
+  #menu a {
+    text-decoration: none;
+    display: block;
+  }
+.masthead-left{
+    border-color:white;
+    margin-left: 24px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+}
+.masthead-logo img{
+  margin-left: 150px;
+  height: 80px;
+  list-style: none;
+  padding-top: 10px;
+}
+.masthead-logo{
+  height: 80px;
+}
+.sreach{
+width: 70px;
+height: 40px;
+float:left;
+margin-right: 257px;
+margin-top:25px;
+}
+.input{
+    width: 600px;
+    height: 40px;
+    float: left; ;
+    margin-top: 25px;
+    list-style: none;
+    margin-left: 80px;
+
+}
+.content{
+  border-top: 2px solid #00a7f6;
+  background: #f2f2f2;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.content li{
+  height: 30px;
+  list-style: none;
+  padding-top: 10px;
+}
+.col{
+  display: inline-block;
+  margin-left: 150px;
+}
+.col-md-4{
+  float: left;
+  margin-right: 88px;
+}
+.col-md-4 a{
+  list-style: none;
+  width: 320px;
+  display: block;
+}
+.col-md-4 .price-reduction{
+  margin-left: 190px;
+  text-decoration:line-through;
+  color: #aaa;
+}
+.col-md-4 .price-nd{
+  color: #ef342b;
+  font-size: 12px;
+  font-weight:bold;
+}
+.content li a{
+  text-decoration: none;
+}
+.content #content-shop{
+  margin: 10px;
+  color: #00a7f6;
+}
+.topbar .topbar-fyg{
+margin-right: 150px;
+}
+.sreach:hover{
+  color: #00a7f6;
+}
+#menu .menu-dmsp{
+  background-color: yellow;
+  color: black;
+  width: 250px;
+  margin-left: 150px;
+  font-size: 20px;
+}
+.woocommerce-pagination {
+  margin-top: 20px;
+  text-align: center;
+  display:  block;
+
+}
+.woocommerce-pagination li{
+  text-align: center;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  display: inline-block;
+  color: #646464;
+  border: 1px solid #ebebeb;
+  border-color: transparent;
+  list-style: none;
+
+}
+.woocommerce-pagination ul li a{
+  color: #646464;
+  text-decoration: none;
+
+}
+.page-numbers-1:hover{
+  color: #00a7f6;
+  border: 1px solid #aaa;
+  padding: 5px 8px 5px 8px;
+}
+.home_page li a{
+  text-decoration: none;
+  list-style: none;
+}
+.poster{
+  background-color: rgb(65, 133, 189);
+  height: 50px;
+  padding: 20px 0;
+}
+footer{
+  margin-top: 100px;
+  margin: 25px 150px 0px 150px;
+  
+}
+footer li{
+  list-style: none;
+}
+.poster .poster-bottom{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.poster .poster-bottom .text-head{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.poster input[type = email]{
+  padding: 3px 0;
+  width:500px ;
+  border-radius: 10px;
+  padding-left: 20px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+}
+.poster .poster-dk{
+  background-color: yellow;
+  width: 100px;
+  height: 38px;
+  margin-left: -105px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.icon-text .history{
+  float: right;
+  width: 50%;
+  margin-top: -75px;
+  margin-bottom: 50px;
+}
+.icon-text .info{
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.icon-text li{
+  list-style: none;
+}
+.icon-text li a{
+  text-decoration: none;
+  color: black;
+}
+.lienket{
+  display: inline-block;
+}
+.lienket .ion-social img{
+  width: 25px;
+}
+.col-md-4 {
+  margin-top:15px;
+  width: auto;
+
+}
+.col-md-4 .preview{
+  position:relative;
+  width: auto;
+}
+.col-md-4 .price-name{
+  font-size: 12px;
+}
+.col-md-4 .price-name a{
+  text-decoration: none;
+}
+.col-md-4 .preview .picture a{
+  width: 333px;
+  height: 200px;
+}
+
+.col-md-4 .preview .picture img{
+  width: 333px;
+  height:200px;
+  margin-right:50px;
+}
+
+.col-md-4 .preview .badge{
+  position: absolute;
+  top:0px;
+  right:0px;
+  
+}
+
+.col-md-4 .preview .badge .badge-content{
+  background: rgba(255,212,36,.9);
+  font-size:18px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.col-md-4 .preview .badge .badge-content div:first-child{
+  color:red;
+}
+
+.col-md-4 .preview .badge .badge-content div:last-child{
+  color:white;
+}
+
+.col-md-4 .preview .badge:after{
+  content: "";
+  border-width: 23px;
+  border-top-color: transparent;
+  border-left-color: rgba(255,212,36,.9);
+  border-bottom-color: transparent;
+  border-right-color: rgba(255,212,36,.9);
+  border-style: solid;
+  position: absolute;
+  bottom: -7px;
+  border-top-width: 0px;
+  border-bottom-width: 8px;
+}
+.slide{
+  height: 400px;
+  width: auto;
+}
+
